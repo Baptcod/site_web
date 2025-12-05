@@ -21,3 +21,59 @@ nav ul {
     justify-content: center;
     gap: 120px;
 }
+
+main {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: green;
+
+}
+
+section {
+    
+    background-color: cyan;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+
+    background-color: cyan;
+}
+
+#section1 {
+    background: yellow;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+#section1 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#section2 {
+    background: yellow;
+    flex-direction: row;
+}
+
+/* Formulaire */
+form {
+    background: pink;
+    padding: 30px;
+    border-radius: 10px;
+    color: black;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 40px;
+}
+
+
+
