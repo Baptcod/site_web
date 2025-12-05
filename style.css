@@ -3,6 +3,19 @@ body {
     margin: 50px;
 }
 
+header {
+  background: yellow;
+  padding: 20px;        
+  top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    background-color: cyan;
+}
+
 nav ul {
     display: flex;
     justify-content: center;
