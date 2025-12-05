@@ -2,3 +2,9 @@ body {
     min-height: 200vh;
     margin: 50px;
 }
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
