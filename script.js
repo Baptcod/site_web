@@ -1,21 +1,21 @@
-const contactForm = document.getElementById("contactForm");
+const form = document.getElementById("contactForm");
 const confirmation = document.getElementById("confirmation");
-const erreur = document.getElementById("erreur"); 
+const erreur = document.getElementById("errorMessage");
 
-contactForm.addEventListener("submit", (e) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault();
-    
-    const nom = document.getElementById("nom").value;
-    const email = document.getElementById("email").value;
-    
+
+    const nom = document.getElementById("nom").value.trim();
+    const email = document.getElementById("email").value.trim();
+
+    // On cache les messages
     confirmation.classList.add("hidden");
     erreur.classList.add("hidden");
-    
-    if (nom && email) {
+
+    // Vérification simple
+    if (nom !== "" && email !== "") {
         confirmation.classList.remove("hidden");
-        confirmation.classList.add("show");
     } else {
         erreur.classList.remove("hidden");
-        erreur.classList.add("show");
     }
 });

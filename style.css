@@ -1,12 +1,12 @@
 body {
     min-height: 200vh;
     margin: 50px;
+    background-color: orange;
 }
 
 header {
   background: yellow;
-  padding: 20px;        
-  top: 0;
+  padding: 20px;
 }
 
 nav {
@@ -26,11 +26,9 @@ main {
     margin-top: 20px;
     padding: 20px;
     background-color: green;
-
 }
 
 section {
-    
     background-color: cyan;
     min-height: 80vh;
     display: flex;
@@ -40,8 +38,8 @@ section {
 }
 
 p {
-
-    background-color: cyan;
+    background-color: rgb(120, 213, 248);
+    padding: 20px;
 }
 
 #section1 {
@@ -90,7 +88,7 @@ input {
 }
 
 button {
-    background:blue;
+    background: blue;
     color: white;
     padding: 12px 30px;
     cursor: pointer;
@@ -104,11 +102,13 @@ button:hover {
     display: none;
 }
 
-.show {
-    display: block;
-    color: green;
-    font-weight: bold;
+footer {
+    background-color: pink;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
 }
-
-
-
