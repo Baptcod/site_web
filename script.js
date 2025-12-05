@@ -8,11 +8,9 @@ form.addEventListener("submit", (e) => {
     const nom = document.getElementById("nom").value.trim();
     const email = document.getElementById("email").value.trim();
 
-    // On cache les messages
     confirmation.classList.add("hidden");
     erreur.classList.add("hidden");
 
-    // Vérification simple
     if (nom !== "" && email !== "") {
         confirmation.classList.remove("hidden");
     } else {
