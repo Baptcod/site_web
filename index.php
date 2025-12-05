@@ -39,7 +39,6 @@
 
                 <button type="submit">Validez</button>
 
-                <!-- Messages -->
                 <p id="confirmation" class="hidden">Votre demande est bien envoyée !</p>
                 <p id="errorMessage" class="hidden">Vos informations ne sont pas correctes</p>
             </form>
